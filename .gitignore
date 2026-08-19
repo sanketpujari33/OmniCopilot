@@ -4,3 +4,7 @@ out/
 *.vsix
 *.log
 .DS_Store
+
+# Secrets — never commit (publish tokens live here)
+!.env.example
+config.bat
